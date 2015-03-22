@@ -4,7 +4,7 @@
 ## that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
-    i <- NULL # reset old inverse value
+    i <- NULL # initialize matrix inverse value
     set <- function(y) {
         x <<- y # set new matrix value
         i <<- NULL # reset old inverse value
